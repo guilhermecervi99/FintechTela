@@ -1,0 +1,151 @@
+body {
+    background: #FCFAFA;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 320px; 
+    height: 568px; 
+    background: #FCFAFA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-weight: 100;
+    font-size: 42px; 
+    line-height: 26px; 
+    text-align: center;
+    color: #000000;
+    margin: 20%;
+    margin-bottom: 20%;
+}
+
+.mensagem-bem-vindo {
+    font-weight: 200; 
+    font-size: 22px; 
+    line-height: 20px; 
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.campo-entrada {
+    width: 212px; 
+    margin: 0 auto; 
+    padding: 10px 0;
+    font-size: 14px; 
+    color: rgba(0, 0, 0, 0.45);
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+    display: block;
+}
+
+.linha {
+    width: 212px; 
+    margin: 0 auto; 
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    display: block;
+}
+
+.login-social {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.icone-social {
+    width: 30px;
+    height: 30px;
+}
+
+.botao-principal {
+    width: 154px; 
+    height: 38px; 
+    margin: 20px auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    display: block;
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: 100; 
+    font-size: 18px; 
+    line-height: 22px; 
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.esqueci-senha {
+    font-weight: 100; 
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.botao-secundario {
+    width: 154px; 
+    height: 38px; 
+    margin: 20px auto;
+    display: block;
+    background: #F9F9F9;
+    color: #000000;
+    font-weight: 100; 
+    font-size: 16px; 
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        height: auto; 
+    }
+
+    .titulo {
+        font-size: 30px; 
+        line-height: 36px; 
+    }
+
+    .mensagem-bem-vindo {
+        font-size: 14px; 
+        line-height: 18px; 
+    }
+
+    .campo-entrada, .linha {
+        width: calc(100% - 40px); 
+        margin: 0 20px; 
+    }
+
+    .botao-principal, .botao-secundario {
+        width: 80%; 
+        height: 34px; 
+    }
+}
